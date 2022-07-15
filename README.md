@@ -13,7 +13,6 @@ Base de frontend dinamico PHP + J
 
 ### [Documentação](https://github.com/mizi-php/energize/tree/main/.doc)
 
-- [_constant](https://github.com/mizi-php/energize/tree/main/.doc/_constant.md)
 - [_function](https://github.com/mizi-php/energize/tree/main/.doc/_function.md)
 - [_middlewares](https://github.com/mizi-php/energize/tree/main/.doc/_middlewares.md)
 - [_view](https://github.com/mizi-php/energize/tree/main/.doc/_view.md)
