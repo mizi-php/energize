@@ -2,3 +2,8 @@
 /vendor
 /.env
 /mx
+
+/library/assets
+/source/view
+/boot.php
+/app
