@@ -1,0 +1,13 @@
+{
+    "name": "mizi/energize",
+    "description": "Base de frontend dinamico PHP + JS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {},
+    "require": {}
+}
