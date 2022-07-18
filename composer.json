@@ -19,6 +19,6 @@
         ]
     },
     "require": {
-        "mizi/server-front": "dev-main"
+        "mizi/server-front": "^1.0"
     }
 }
