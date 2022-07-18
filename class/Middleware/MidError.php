@@ -14,7 +14,6 @@ abstract class MidError implements InterfaceMiddleware
         try {
             return $next();
         } catch (Exception | Error $e) {
-            die('AFF');
             $url = url('error', $e->getCode() ? $e->getCode() : 500);
             redirect($url);
         }
