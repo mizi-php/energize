@@ -1,6 +1,7 @@
 {
     "name": "mizi/energize",
-    "description": "Base de frontend dinamico PHP + JS",
+    "description": "Projeto base para frontend dinamico PHP + JS",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -20,5 +21,11 @@
     },
     "require": {
         "mizi/server-front": "^1.1"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php vendor/mizi/core/mxcmd",
+            "php mx clsProject"
+        ]
     }
 }
