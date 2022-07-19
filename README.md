@@ -2,7 +2,7 @@
 
 Base de frontend dinamico PHP + JS
 
-    composer require mizi/energize
+    composer create-project mizi/energize
 
 ---
 
