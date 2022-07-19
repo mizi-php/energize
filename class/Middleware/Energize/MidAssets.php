@@ -1,21 +1,21 @@
 <?php
 
-namespace Middleware;
+namespace Middleware\Energize;
 
 use Error;
 use Exception;
 use Mizi\Middleware\InterfaceMiddleware;
+use Mizi\Response\InstanceResponse;
 
-/** Middleware error */
-abstract class MidError implements InterfaceMiddleware
+/** Middleware energize.assets */
+abstract class MidAssets implements InterfaceMiddleware
 {
     static function run(callable $next): mixed
     {
         try {
             return $next();
         } catch (Exception | Error $e) {
-            $url = url('error', $e->getCode() ? $e->getCode() : 500);
-            redirect($url);
+            return new InstanceResponse('Arquivo não encontrado', 404);
         }
     }
 }

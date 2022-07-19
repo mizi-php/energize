@@ -1,12 +1,12 @@
 <?php
 
-namespace Middleware;
+namespace Middleware\Energize;
 
 use Mizi\Input\InputException;
 use Mizi\Middleware\InterfaceMiddleware;
 use Mizi\Response\InstanceResponse;
 
-/** Middleware form */
+/** Middleware energize.form */
 abstract class MidForm implements InterfaceMiddleware
 {
     static function run(callable $next): mixed

@@ -13,12 +13,12 @@
             "": "class/"
         },
         "files": [
-            "./source/helper/constant/is_ajax.php",
             "./source/helper/function/front.php",
+            "./source/helper/script/middlewares.php",
             "./source/helper/script/view-prepare.php"
         ]
     },
     "require": {
-        "mizi/server-front": "^1.0"
+        "mizi/server-front": "^1.1"
     }
 }

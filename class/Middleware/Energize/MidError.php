@@ -1,13 +1,12 @@
 <?php
 
-namespace Middleware\Assets;
+namespace Middleware\Energize;
 
 use Error;
 use Exception;
 use Mizi\Middleware\InterfaceMiddleware;
-use Mizi\Response\InstanceResponse;
 
-/** Middleware assets.error */
+/** Middleware energize.error */
 abstract class MidError implements InterfaceMiddleware
 {
     static function run(callable $next): mixed
@@ -15,7 +14,8 @@ abstract class MidError implements InterfaceMiddleware
         try {
             return $next();
         } catch (Exception | Error $e) {
-            return new InstanceResponse('Arquivo não encontrado', 404);
+            $url = url('error', $e->getCode() ? $e->getCode() : 500);
+            redirect($url);
         }
     }
 }

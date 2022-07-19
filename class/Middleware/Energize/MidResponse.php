@@ -1,12 +1,13 @@
 <?php
 
-namespace Middleware;
+namespace Middleware\Energize;
 
 use Mizi\Middleware\InterfaceMiddleware;
+use Mizi\Response\InstanceResponse;
 use Mizi\Response\InstanceResponsePageDinamic;
 
-/** Middleware page */
-abstract class MidPage implements InterfaceMiddleware
+/** Middleware energize.response */
+abstract class MidResponse implements InterfaceMiddleware
 {
     static function run(callable $next): mixed
     {
