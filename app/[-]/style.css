@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to bottom, #465ebb, #803dc9);
+}
+
+.image img {
+  -webkit-animation: coin 4s infinite;
+  animation: coin 4s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  width: 200px;
+}
+
+.form {
+  width: 500px;
+}
+
+@-webkit-keyframes coin {
+  0%, 100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes coin {
+  0%, 100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+}
