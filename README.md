@@ -1,12 +1,13 @@
 # ⚡ Energize ⚡ 
 
-Base de frontend dinamico PHP + J
+Base de frontend dinamico PHP + JS
 
     composer require mizi/energize
 
 ---
 
 > Esta é uma bilioteca que deve ser utilizada em conjunto com os aquivo JS e CSS do Energize. 
+> Por padrão, a versão mini destes arquivos já se encontram em **storage/assets/energize**
 > Os aquivos completos podem ser encontrados [aqui](https://mundoizi.com/mizi)
 
 ---
