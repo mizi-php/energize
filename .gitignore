@@ -3,7 +3,8 @@
 /.env
 /mx
 
-/library/assets
-/source/view
-/boot.php
 /app
+/api
+/boot.php
+/source/view
+/library/assets
