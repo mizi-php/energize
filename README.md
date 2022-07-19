@@ -7,8 +7,8 @@ Base de frontend dinamico PHP + JS
 ---
 
 > Esta é uma bilioteca que deve ser utilizada em conjunto com os aquivo JS e CSS do Energize. 
-> Por padrão, a versão mini destes arquivos já se encontram em **storage/assets/energize**
-> Os aquivos completos podem ser encontrados [aqui](https://mundoizi.com/mizi)
+> Por padrão, a versão mini destes arquivos já se encontram em **assets/assets/energize**
+> Os aquivos completos podem ser encontrados [aqui](https://github.com/mizi-php/energize-files)
 
 ---
 
